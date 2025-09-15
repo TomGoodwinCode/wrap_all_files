@@ -1,0 +1,30 @@
+{
+    "name": "wrap-all-files",
+    "displayName": "Wrap All Files in XML",
+    "description": "Wraps all open files in XML tags and copies to clipboard.",
+    "publisher": "young-thomas",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "readme": "README.md",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "activationEvents": [
+      "onCommand:wrapAllFiles.wrapAllCodeInXml"
+    ],
+    "main": "./extension.js",  
+    "contributes": {
+      "commands": [
+        {
+          "command": "wrapAllFiles.wrapAllCodeInXml",
+          "title": "Wrap All Open Files in XML"
+        }
+      ]
+    },
+    "scripts": {
+      "package": "vsce package"
+    }
+  }
