@@ -21,7 +21,6 @@ A Visual Studio Code extension that helps you export code to external LLM progra
 6. Browse to the location of the downloaded `.vsix` file and select it
 7. Click "Install"
 
-
 ## Usage
 
 1. Open the files you want to wrap in XML
@@ -32,18 +31,43 @@ A Visual Studio Code extension that helps you export code to external LLM progra
 
 ## Setting Up a Keyboard Shortcut
 
-To create a keyboard shortcut for this extension:
+### Recommended Shortcut: `Alt+Cmd+W` (macOS) or `Ctrl+Alt+W` (Windows/Linux)
+
+For the best experience, we recommend using `Alt+Cmd+W` on macOS or `Ctrl+Alt+W` on Windows/Linux.
+
+#### Method 1: Using keybindings.json (Recommended)
+
+1. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
+2. Type "Preferences: Open Keyboard Shortcuts (JSON)" and select it
+3. Add this keybinding to your `keybindings.json` file:
+
+```json
+{
+  "key": "alt+cmd+w",
+  "command": "wrapAllFiles.wrapAllCodeInXml"
+}
+```
+
+For Windows/Linux, use:
+
+```json
+{
+  "key": "ctrl+alt+w",
+  "command": "wrapAllFiles.wrapAllCodeInXml"
+}
+```
+
+#### Method 2: Using the GUI
 
 1. Open VS Code
 2. Go to File > Preferences > Keyboard Shortcuts (Windows/Linux) or Code > Preferences > Keyboard Shortcuts (macOS)
    - Alternatively, press `Ctrl+K Ctrl+S` (Windows/Linux) or `Cmd+K Cmd+S` (macOS)
-3. Click the "+" icon to add a new keyboard shortcut
-4. In the search box that appears, type "Wrap All Open Files in XML"
-5. Select the command from the dropdown
-6. Press the key combination you want to use (e.g., `Ctrl+Alt+W` or `Cmd+Alt+W`)
-7. Press Enter to save the shortcut
+3. Search for "Wrap All Open Files in XML"
+4. Click the "+" icon next to the command
+5. Press `Alt+Cmd+W` (macOS) or `Ctrl+Alt+W` (Windows/Linux)
+6. Press Enter to save
 
-Now you can use your chosen keyboard shortcut to quickly wrap all open files in XML.
+Now you can quickly wrap all open files by pressing your keyboard shortcut!
 
 ## Example Output
 

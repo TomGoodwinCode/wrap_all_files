@@ -3,7 +3,7 @@
     "displayName": "Wrap All Files in XML",
     "description": "Wraps all open files in XML tags and copies to clipboard.",
     "publisher": "young-thomas",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "repository": {
         "type": "git",
         "url": "https://github.com/TomGoodwinCode/wrap_all_files"
