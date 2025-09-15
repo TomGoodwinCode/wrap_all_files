@@ -6,8 +6,11 @@
     "version": "0.0.1",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/TomGoodwinCode/wrap_all_files"
     },
+    "categories": ["Other"],
+    "keywords": ["xml", "export", "clipboard", "files", "llm", "ai", "code", "wrapper"],
+    "license": "MIT",
     "readme": "README.md",
     "engines": {
       "vscode": "^1.50.0"

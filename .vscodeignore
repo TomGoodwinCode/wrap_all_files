@@ -1,0 +1,14 @@
+# Files and folders to ignore when packaging
+.vscode/**
+.git/**
+.gitignore
+node_modules/**
+*.vsix
+.vscodeignore
+*.log
+.DS_Store
+Thumbs.db
+src/**
+test/**
+*.md
+!README.md
